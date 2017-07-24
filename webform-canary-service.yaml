@@ -1,0 +1,16 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: webform
+spec:
+  selector:
+    app: webform
+    tier: frontend
+  ports:
+    - protocol: TCP
+      port: 8000
+      targetPort: http
+      nodePort: 30000
+  type: NodePort
+
+
