@@ -9,7 +9,7 @@ spec:
     track: bluegreen
   ports:
     - protocol: TCP
-      port: 8000
+      port: 80
       targetPort: http
-      nodePort: 30000
+      nodePort: 31000
   type: NodePort
