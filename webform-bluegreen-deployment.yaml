@@ -16,4 +16,4 @@ spec:
           image: "jonathanfane/webform"
           ports:
             - name: http
-              containerPort: 8000
+              containerPort: 80
